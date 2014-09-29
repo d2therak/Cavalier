@@ -1,11 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hero/hero_Class.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Hero/heroClass.cs">
     <Files>
-      <File FileName="Assets/Buttons/right_Button.js" Line="4" Column="22" />
-      <File FileName="Assets/Buttons/left_Button.js" Line="4" Column="22" />
-      <File FileName="Assets/Hero/heroClass.cs" Line="26" Column="3" />
-      <File FileName="Assets/Hero/hero_Class.js" Line="4" Column="1" />
+      <File FileName="Assets/Hero/heroClass.cs" Line="52" Column="2" />
+      <File FileName="Assets/Buttons/leftButton.cs" Line="7" Column="2" />
+      <File FileName="Assets/Buttons/rightButton.cs" Line="14" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

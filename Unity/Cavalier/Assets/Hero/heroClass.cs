@@ -7,6 +7,8 @@ public class heroClass : MonoBehaviour {
 	public int mana = 0;
 	public int damage = 5;
 	public Vector3 position;
+
+	public Transform explosionPrefab;
 	
 	void OnMouseDown(){
 		Debug.Log("WTF");
@@ -49,6 +51,13 @@ public class heroClass : MonoBehaviour {
 		health = (health +healthRestored);
 	
 		
+	}
+	void OnCollisionEnter(Collision other) {
+		//ContactPoint contact = collision.contacts[0];
+		//Quaternion rot = Quaternion.FromToRotation(Vector3.up, contact.normal);
+		//Vector3 pos = contact.point;
+		explosionPrefab = Instantiate(explosionPrefab, transform.position, Quaternion.identity) as Transform;
+		Destroy(other.gameObject);
 	}
 
 

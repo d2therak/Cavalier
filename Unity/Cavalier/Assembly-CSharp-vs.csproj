@@ -46,6 +46,7 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Bad_Guys\zombie_Class.cs" />
      <Compile Include="Assets\Buttons\leftButton.cs" />
      <Compile Include="Assets\Buttons\rightButton.cs" />
      <Compile Include="Assets\Hero\heroClass.cs" />
