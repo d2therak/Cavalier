@@ -47,8 +47,6 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Buttons\left_Button.js" />
-     <Compile Include="Assets\Buttons\right_Button.js" />
-     <Compile Include="Assets\Hero\hero_Class.js" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
